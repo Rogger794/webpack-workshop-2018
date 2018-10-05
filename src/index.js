@@ -4,11 +4,14 @@ import makeButton from "./button";
 import { makeColorStyle } from "./button-styles";
 import css from "./footer.css";
 import buttonStyles from "./button.css";
-import image from "./one-piece.jpg";
+import makeImage from "./image";
+import imageUrl from "./one-piece.jpg";
 
+const image=makeImage(imageUrl);
 const button=makeButton("Ula");
 button.style=makeColorStyle("cyan")
 
+document.body.appendChild(image);
 document.body.appendChild(button);
 document.body.appendChild(footer);
 
