@@ -60,3 +60,6 @@ typings/
 # webpack default dist folder
 dist/
 
+#aparte
+.idea/
+*-lock.json
